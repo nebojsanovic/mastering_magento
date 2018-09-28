@@ -1,0 +1,4 @@
+[New Module Declaration]
+php bin/magento dev:urn-catalog:generate .idea/misc.xml
+php bin/magento module:enable Mastering_SampleModule
+php bin/magento setup:upgrade
